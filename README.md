@@ -1,7 +1,7 @@
 cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations
 imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
-Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, with additional
-optimizations by Jay D Dee.
+Jeff garzik, ig0tik3d, elmad, palmd, barrystyle, Jay D Dee and Optiminer, with additional
+optimizations by RickillerZ.
 
 All of the code is believed to be open and free. If anyone has a
 claim to any of it post your case in the cpuminer-opt Bitcoin Talk forum
@@ -126,6 +126,7 @@ Supported Algorithms
                           yescryptr32   WAVI
                           yespower      Cryply
                           yespowerr16   Yenten (YTN)
+                          yespowerurx   Yespower (URX)
                           zr5           Ziftr
 
 Errata
@@ -162,11 +163,7 @@ Donations
 
 cpuminer-opt has no fees of any kind but donations are accepted.
 
- BTC: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
- ETH: 0x72122edabcae9d3f57eab0729305a425f6fef6d0
- LTC: LdUwoHJnux9r9EKqFWNvAi45kQompHk6e8
- BCH: 1QKYkB6atn4P7RFozyziAXLEnurwnUM1cQ
- BTG: GVUyECtRHeC5D58z9F3nGGfVQndwnsPnHQ
+ BTC: 3Pzm5Syv59SW5pY2nBD62DFqzmdFu73psQ
 
 Happy mining!
 
