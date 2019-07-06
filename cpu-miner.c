@@ -3230,7 +3230,12 @@ static void show_credits()
    printf("\n         **********  "PACKAGE_NAME" "PACKAGE_VERSION"  *********** \n");
    printf("     A CPU miner with multi algo support and optimized for CPUs\n");
    printf("     with AES_NI and AVX2 and SHA extensions.\n");
-   printf("     BTC donation address: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT\n\n");
+   printf("     BTC donation address: 3Pzm5Syv59SW5pY2nBD62DFqzmdFu73psQ\n\n");
+   printf("\n");
+   printf("\n");
+   printf("\n"PACKAGE_NAME" "PACKAGE_VERSION" \n");
+   printf(" RickillerZ Fork\n");
+   printf("(https://github.com/RickillerZ)\n");
 }
 
 bool check_cpu_capability ()
