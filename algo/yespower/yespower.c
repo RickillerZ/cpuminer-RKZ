@@ -118,6 +118,7 @@ bool register_yespower_urx_algo( algo_gate_t* gate )
    yespower_params.perslen = 8;
    return true;
 };
+
 int64_t yescrypt_05_get_max64()
 {
   return 0x1ffLL;
