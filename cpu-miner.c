@@ -3233,9 +3233,10 @@ static void show_credits()
    printf("     BTC donation address: 3Pzm5Syv59SW5pY2nBD62DFqzmdFu73psQ\n\n");
    printf("\n");
    printf("\n");
-   printf("\n"PACKAGE_NAME" "PACKAGE_VERSION" \n");
+   printf("\n "PACKAGE_NAME" "PACKAGE_VERSION" \n");
    printf(" RickillerZ Fork\n");
-   printf("(https://github.com/RickillerZ)\n");
+   printf(" https://github.com/RickillerZ \n");
+   printf("\n");
 }
 
 bool check_cpu_capability ()
