@@ -105,7 +105,19 @@ bool register_yespowerr16_algo( algo_gate_t* gate )
   return true;
  };
 
-
+bool register_yespower_urx_algo( algo_gate_t* gate )
+{
+   gate->optimizations = SSE2_OPT;
+   gate->scanhash   = (void*)&scanhash_yespower;
+   gate->set_target = (void*)&scrypt_set_target;
+   gate->get_max64  = (void*)&yespower_get_max64;
+   yespower_params.version = YESPOWER_1_0;
+   yespower_params.N       = 2048;
+   yespower_params.r       = 32;
+   yespower_params.pers    = "UraniumX";
+   yespower_params.perslen = 8;
+   return true;
+};
 int64_t yescrypt_05_get_max64()
 {
   return 0x1ffLL;
