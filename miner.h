@@ -569,6 +569,7 @@ enum algos {
         ALGO_YESPOWER,
         ALGO_YESPOWERR16,
 	ALGO_YESPOWER_URX,
+	ALGO_CPUPOWER,
         ALGO_ZR5,
         ALGO_COUNT
 };
@@ -658,6 +659,7 @@ static const char* const algo_names[] = {
         "yespower",
         "yespowerr16",
 	"yespowerurx",
+	"cpupower",
         "zr5",
         "\0"
 };
@@ -810,6 +812,7 @@ Options:\n\
                           yespower      Cryply\n\
                           yespowerr16   Yenten (YTN)\n\
 			  yespowerurx   Yespower (URX)\n\
+			  cpupower      CPUchain (CPU)\n\
 			  zr5           Ziftr\n\
   -o, --url=URL         URL of mining server\n\
   -O, --userpass=U:P    username:password pair for mining server\n\
