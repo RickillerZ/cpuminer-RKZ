@@ -127,6 +127,7 @@ Supported Algorithms
                           yespower      Cryply
                           yespowerr16   Yenten (YTN)
                           yespowerurx   Yespower (URX)
+                          cpupower      CPUchain (CPU)
                           zr5           Ziftr
 
 Errata
