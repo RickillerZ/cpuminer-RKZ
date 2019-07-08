@@ -244,6 +244,7 @@ bool register_algo_gate( int algo, algo_gate_t *gate )
     case ALGO_YESCRYPTR16:   register_yescryptr16_algo   ( gate ); break;
     case ALGO_YESCRYPTR32:   register_yescryptr32_algo   ( gate ); break;
     case ALGO_YESPOWER_URX:  register_yespower_urx_algo  ( gate ); break;
+    case ALGO_CPUPOWER:      register_cpupower_algo      ( gate ); break;
     case ALGO_YESPOWER:      register_yespower_algo      ( gate ); break;
     case ALGO_YESPOWERR16:   register_yespowerr16_algo   ( gate ); break;
     case ALGO_ZR5:           register_zr5_algo           ( gate ); break;
@@ -316,6 +317,7 @@ const char* const algo_alias_map[][2] =
   { "blake256r8vnl",     "vanilla"      },
   { "blake256r14",       "blake"        },
   { "blake256r14dcr",    "decred"       },
+  { "cpuchain",          "cpupower"     },
   { "cryptonote",        "cryptonight"  },
   { "cryptonight-light", "cryptolight"  },
   { "diamond",           "dmd-gr"       },
