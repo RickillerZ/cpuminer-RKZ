@@ -128,7 +128,7 @@ Supported Algorithms
                           yespowerr16   Yenten (YTN)
                           yespowerurx   Yespower (URX)
                           cpupower      CPUchain (CPU)
-                          yespower_ltncg Lightningcash-Gold (Ltncg)
+                          yespowerltncg Lightningcash-Gold (Ltncg)
                           zr5           Ziftr
 
 Errata
