@@ -129,6 +129,7 @@ Supported Algorithms
                           yespowerurx   Yespower (URX)
                           cpupower      CPUchain (CPU)
                           yespowerltncg Lightningcash-Gold (Ltncg)
+                          yespowerlitb  LightBit (LITB)
                           zr5           Ziftr
 
 Errata
