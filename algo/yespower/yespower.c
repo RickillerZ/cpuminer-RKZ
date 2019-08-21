@@ -125,7 +125,7 @@ bool register_yespowerlitb_algo( algo_gate_t* gate )
   yespower_params.version = YESPOWER_1_0;
   yespower_params.N       = 2048;
   yespower_params.r       = 32;
-  yespower_params.pers    = "LITBpower: The number of CPU working or available for proof-of-work mining";
+  yespower_params.pers    = "LITBpower: The number of LITB working or available for proof-of-work mining";
   yespower_params.perslen = 73;
   gate->optimizations = SSE2_OPT;
   gate->get_max64     = (void*)&yespower_get_max64;
@@ -134,6 +134,7 @@ bool register_yespowerlitb_algo( algo_gate_t* gate )
   gate->set_target    = (void*)&scrypt_set_target;
   return true;
 };
+
 bool register_yespower_urx_algo( algo_gate_t* gate )
 {
    gate->optimizations = SSE2_OPT;
