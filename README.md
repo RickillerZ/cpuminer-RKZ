@@ -130,6 +130,7 @@ Supported Algorithms
                           cpupower      CPUchain (CPU)
                           yespowerltncg Lightningcash-Gold (Ltncg)
                           yespowerlitb  LightBit (LITB)
+                          yespowersugar Sugarchain (SUGAR)
                           zr5           Ziftr
 
 Errata
