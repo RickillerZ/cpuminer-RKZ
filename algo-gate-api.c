@@ -322,7 +322,7 @@ const char* const algo_alias_map[][2] =
   { "blake256r14dcr",    "decred"       },
   { "cpuchain",          "cpupower"     },
   { "lightBit",          "LITBpower"    },
-  { "sugarcahin",        "Sugar"        },
+  { "sugarchain",        "Sugar"        },
   { "cryptonote",        "cryptonight"  },
   { "cryptonight-light", "cryptolight"  },
   { "diamond",           "dmd-gr"       },
