@@ -665,7 +665,7 @@ static const char* const algo_names[] = {
 	"cpupower",
 	"yespowerltncg",
 	"yespowerlitb",
-	"yespowersugar"
+	"yespowersugar",
         "zr5",
         "\0"
 };
