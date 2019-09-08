@@ -1,4 +1,4 @@
-AC_INIT([cpuminer-RKZ], [3.9.5.2])
+AC_INIT([cpuminer-RKZ], [3.9.9.1])
 
 AC_PREREQ([2.59c])
 AC_CANONICAL_SYSTEM
