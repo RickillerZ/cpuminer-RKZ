@@ -178,6 +178,7 @@ bool register_power2b_algo( algo_gate_t* gate )
   gate->set_target    = (void*)&scrypt_set_target;
   return true;
 };
+
 bool register_yespower_ltncg_algo( algo_gate_t* gate )
 {
    gate->optimizations = SSE2_OPT;
