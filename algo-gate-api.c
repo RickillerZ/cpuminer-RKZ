@@ -248,7 +248,6 @@ bool register_algo_gate( int algo, algo_gate_t *gate )
     case ALGO_YESPOWER_LTNCG: register_yespower_ltncg_algo ( gate ); break;
     case ALGO_YESPOWERLITB:  register_yespowerlitb_algo  ( gate ); break;
     case ALGO_YESPOWERSUGAR:  register_yespowersugar_algo  ( gate ); break;
-    case ALGO_POWER2B:       register_power2b_algo       ( gate ); break;
     case ALGO_YESPOWER:      register_yespower_algo      ( gate ); break;
     case ALGO_YESPOWERR16:   register_yespowerr16_algo   ( gate ); break;
     case ALGO_ZR5:           register_zr5_algo           ( gate ); break;
@@ -322,7 +321,6 @@ const char* const algo_alias_map[][2] =
   { "blake256r14",       "blake"        },
   { "blake256r14dcr",    "decred"       },
   { "cpuchain",          "cpupower"     },
-  { "microbitcoin",      "power2b"      },
   { "lightBit",          "LITBpower"    },
   { "sugarchain",        "Sugar"        },
   { "cryptonote",        "cryptonight"  },
