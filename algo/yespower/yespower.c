@@ -164,21 +164,6 @@ bool register_yespower_urx_algo( algo_gate_t* gate )
    return true;
 };
 
-bool register_power2b_algo( algo_gate_t* gate )
-{
-  yespower_params.version = YESPOWER_1_0;
-  yespower_params.N       = 2048;
-  yespower_params.r       = 32;
-  yespower_params.pers    = "Now I am become Death, the destroyer of worlds";
-  yespower_params.perslen = 46;
-  gate->optimizations = SSE2_OPT;
-  gate->get_max64     = (void*)&yespower_get_max64;
-  gate->scanhash      = (void*)&scanhash_yespower;
-  gate->hash          = (void*)&yespower_hash;
-  gate->set_target    = (void*)&scrypt_set_target;
-  return true;
-};
-
 bool register_yespower_ltncg_algo( algo_gate_t* gate )
 {
    gate->optimizations = SSE2_OPT;
