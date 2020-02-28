@@ -66,7 +66,7 @@ Supported Algorithms
                           fresh         Fresh
                           groestl       Groestl coin
                           heavy         Heavy
-                          hmq1725       Espers
+                          hmq1725       Espers/Diminutive coin
                           hodl          Hodlcoin
                           jha           Jackpotcoin
                           keccak        Maxcoin
